@@ -1,0 +1,96 @@
+body{
+        background-color:#F2E7DC;
+}
+
+.navbar {
+    background-color: #2E1615;
+    padding: 15px;
+}
+
+.logo {
+    color: #F2E7DC;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #F2E7DC !important;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+.fullscream{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+width: 50%;
+height: 100vh;
+display: flex;
+}
+
+.text{
+width: 50%;
+height: 100vh;
+padding-top: 150px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.imagesFromMaravilha{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
+@media (max-width:576px) {
+    .imagesFromMaravilha{
+        width: 250px;
+        height: 200px;
+    }
+    
+    .fullscream{
+        flex-direction: column;
+    }
+
+    .image{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .text{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px){
+    .fullscream{
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .text{
+        width: 100%;
+        padding: 0;
+        padding-top: 70px;
+        text-align: center;
+    }
+}

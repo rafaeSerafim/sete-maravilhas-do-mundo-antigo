@@ -1,3 +1,7 @@
+body{
+        background-color:#F2E7DC;
+}
+
 .navbar {
     background-color: #2E1615;
     padding: 15px;
@@ -17,4 +21,103 @@
 
 .nav-link:hover {
     color: #ffffff !important;
+}
+
+.fullscream{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-carrosel-inicial{
+    width: 900px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px black;
+    display: block;
+    margin: 0 auto
+}
+
+#carouselExample{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.elements{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.list{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 250px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #2E1615;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.text{
+    width: 50%;
+}
+
+
+h2{
+    margin: 30px;
+    font-size: 20px;
+}
+
+@media (max-width:576px){
+    .image-carrosel-inicial{
+    width: 400px;
+    height: 300px;
+}
+
+.logo{
+    font-size: 15px;
+}
+
+#carouselExample{
+    margin-top: 120px;
+}
+
+.elements{
+    flex-direction: column;
+}
+
+.list{
+    width: 100%;
+}
+
+.text{
+    width: 100%;
+}
+}
+
+@media (max-width:768px){
+    .image-carrosel-inicial{
+    width: 500px;
+    height: 300px;
+}
+
+h2{
+    font-size: 13px;
+}
+
 }
