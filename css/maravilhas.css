@@ -1,0 +1,98 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#maravilhas {
+    background-color: #F2E7DC;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#maravilhas .image {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+}
+
+#maravilhas .image img {
+    width: 100%;
+    height: auto;
+    max-height: 70%;
+}
+
+#maravilhas .text {
+    margin-left: 10vw;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    margin-bottom: 5vh;
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+@media (max-width: 1500px) {
+    h3 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #maravilhas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #maravilhas .image {
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10vh;
+    }
+
+    #maravilhas .text {
+        width: 70vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    p {
+        font-size: 30px;
+    }
+
+    #maravilhas {
+        padding: 4vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
